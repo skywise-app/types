@@ -21,7 +21,9 @@ jobs:
             # - run: npm run lint
             # - run: npm run test
             # - run: npm run build
-            - run: npm version ${{ github.event.release.tag_name }}
-            - run: npm publish --access public
-              env:
-                  NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+            - uses: JS-DevTools/npm-publish@v1
+              with:
+                  token: ${{ secrets.npm_token }}
+                  tag: ${{ github.event.release.tag_name }}
+                  greater-version-only: true
+                  access: public
