@@ -21,6 +21,7 @@ jobs:
               # - run: npm run lint
               # - run: npm run test
               # - run: npm run build
-            - run: npm publish --access public --tag ${{GIT_TAG_NAME}}
+            - run: npm version ${{ github.event.release.tag_name }}
+            - run: npm publish --access public
               env:
                   NODE_AUTH_TOKEN: ${{secrets.npm_token}}
