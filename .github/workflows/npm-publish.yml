@@ -25,5 +25,4 @@ jobs:
               with:
                   token: ${{ secrets.npm_token }}
                   tag: ${{ github.event.release.tag_name }}
-                  greater-version-only: true
                   access: public
