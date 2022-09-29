@@ -14,5 +14,6 @@
     "bugs": {
         "url": "https://github.com/skywise-app/types/issues"
     },
-    "homepage": "https://github.com/skywise-app/types#readme"
+    "homepage": "https://github.com/skywise-app/types#readme",
+    "version": "0.0.1"
 }
