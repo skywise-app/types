@@ -1,0 +1,19 @@
+{
+    "name": "types",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.d.ts",
+    "scripts": {
+        "packlist": "npx npm-packlist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skywise-app/types.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/skywise-app/types/issues"
+    },
+    "homepage": "https://github.com/skywise-app/types#readme"
+}
