@@ -1,7 +1,6 @@
 {
-    "name": "types",
-    "version": "0.1.0",
-    "description": "",
+    "name": "@skywise-app/types",
+    "description": "typescript types for internal use",
     "main": "index.d.ts",
     "scripts": {
         "packlist": "npx npm-packlist"
