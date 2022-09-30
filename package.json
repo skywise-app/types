@@ -1,6 +1,6 @@
 {
     "name": "@skywise-inc/types",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "typescript types for internal use",
     "main": "index.d.ts",
     "scripts": {
