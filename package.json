@@ -1,9 +1,11 @@
 {
     "name": "@skywise-inc/types",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "typescript types for internal use",
-    "main": "index.d.ts",
+    "main": "dist/index.ts",
+    "types": "dist/index.d.ts",
     "scripts": {
+        "build": "tsc",
         "packlist": "npx npm-packlist"
     },
     "repository": {
@@ -15,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/skywise-app/types/issues"
     },
-    "homepage": "https://github.com/skywise-app/types#readme"
+    "homepage": "https://github.com/skywise-app/types#readme",
+    "dependencies": {
+        "typescript": "^4.8.4"
+    }
 }
