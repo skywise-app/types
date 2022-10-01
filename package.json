@@ -1,5 +1,5 @@
 {
-    "name": "@skywise-inc/types",
+    "name": "@skywise-app/types",
     "version": "0.3.2",
     "description": "typescript types for internal use",
     "main": "dist/index.js",
